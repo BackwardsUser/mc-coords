@@ -3,6 +3,11 @@
 
 This is a simple command-line tool coded in Python.
 
+## Requirements
+
+Python 3.11.3 - Must be in the PATH environment variable.  
+Click [Here](https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7) for the installation process.
+
 ## How to use
 
 1. Make sure the provided files are unzipped and are all contained in the same file.
