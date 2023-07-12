@@ -13,7 +13,7 @@ def convert(nether, x, y, z):
     return coords
 
 parser = argparse.ArgumentParser(description="A Tool used to convert minecraft coordinates.")
-parser.add_argument('-n', '--nether', action='store_true', help='Whether to convert from nether coords or overworld coords.')
+parser.add_argument('-n', '--nether', action='store_true', help='Convert from nether coordinates.')
 parser.add_argument('x', type=int, default=0, help='The X Coordinate.')
 parser.add_argument('y', type=int, default=0, help='The Y Coordinate.')
 parser.add_argument('z', type=int, default=0, help='The Z Coordinate.')
